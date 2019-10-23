@@ -1,0 +1,32 @@
+.audio-player-wrapper {
+    padding: 16px 24px;
+}
+
+.audio-player-wrapper .audio-title {
+    margin-bottom: 4px;
+}
+
+.audio-player-wrapper .player-container {
+    align-items: center;
+}
+  
+.audio-player-wrapper .control-button button {
+    color: #1f8ad6;
+    padding: 0;
+}
+
+.audio-player-wrapper .slider-wrapper {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    flex-grow: 1;
+    margin-top: 8px;
+}
+
+.audio-player-wrapper .control-button button:hover {
+    background-color: unset;
+    opacity: 0.6;
+}
+
+.audio-player-wrapper .control-button svg {
+    font-size: 4rem;
+}
